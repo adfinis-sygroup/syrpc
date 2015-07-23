@@ -1,0 +1,9 @@
+[submodule "php"]
+	path = php
+	url = git@github.com:adfinis-sygroup/syrpc-php.git
+[submodule "js"]
+	path = js
+	url = git@github.com:adfinis-sygroup/syrpc-js.git
+[submodule "python"]
+	path = python
+	url = git@github.com:adfinis-sygroup/syrpc-python.git

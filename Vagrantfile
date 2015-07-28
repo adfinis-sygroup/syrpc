@@ -80,6 +80,11 @@ Vagrant.configure(2) do |config|
     rm -f /etc/dpkg/dpkg.cfg.d/01_nodoc
     apt-get -y install rabbitmq-server
     rabbitmq-plugins enable rabbitmq_management
+    rabbitmqctl add_user vagrant vagrant
+    rabbitmqctl set_permissions vagrant ".*" ".*" ".*"
+    rabbitmqctl set_user_tags vagrant administrator
+    rabbitmqctl start_app
+    service rabbitmq-server restart
     curl -sL https://deb.nodesource.com/setup_iojs_2.x | bash -
     apt-get install -y iojs
   SHELL

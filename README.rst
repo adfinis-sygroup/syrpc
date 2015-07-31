@@ -2,7 +2,17 @@
 syrpc
 =====
 
-Adfinis-SyGroup RabbitMQ Based Simple 12 Factor Compatible RPC
+Python:
+
+.. image:: https://travis-ci.org/adfinis-sygroup/syrpc-python.svg?branch=master)
+   :target: https://travis-ci.org/adfinis-sygroup/syrpc-python
+
+nodejs:
+
+.. image:: https://travis-ci.org/adfinis-sygroup/syrpc-js.svg?branch=master
+   :target: https://travis-ci.org/adfinis-sygroup/syrpc-js
+
+SyRPC - RPC for stateless backends
 
 SyRPC supports stateless backends using result_id.
 

@@ -4,7 +4,10 @@ syrpc
 
 Adfinis-SyGroup RabbitMQ Based Simple 12 Factor Compatible RPC
 
-.. code:: plain
+SyRPC supports stateless backends using result_id.
+
+::
+
       ____   __ 
      |    | |==|
      |____| |  | Web Client

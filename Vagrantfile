@@ -78,7 +78,7 @@ Vagrant.configure(2) do |config|
     apt-get -y update
     rm -f /etc/apt/apt.conf.d/00InstallRecommends
     rm -f /etc/dpkg/dpkg.cfg.d/01_nodoc
-    apt-get -y install rabbitmq-server
+    apt-get -y install rabbitmq-server pandoc
     rabbitmq-plugins enable rabbitmq_management
     rabbitmqctl add_user vagrant vagrant
     rabbitmqctl set_permissions vagrant ".*" ".*" ".*"

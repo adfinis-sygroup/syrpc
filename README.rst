@@ -7,7 +7,7 @@ Python:
 .. image:: https://travis-ci.org/adfinis-sygroup/syrpc-python.svg?branch=master)
    :target: https://travis-ci.org/adfinis-sygroup/syrpc-python
 
-nodejs:
+Nodejs:
 
 .. image:: https://travis-ci.org/adfinis-sygroup/syrpc-js.svg?branch=master
    :target: https://travis-ci.org/adfinis-sygroup/syrpc-js
@@ -45,3 +45,18 @@ Collisions on the queues (too many rejects) are reduced by using a hash-table
 of queues, by default 64 queues. The hash module 64 of the result_id is used to
 identify the result_queue. This makes SyRPC compatible with 12 Factor
 Applications, but has still quite good performance.
+
+Install
+-------
+
+Python::
+
+   pip install syrpc
+
+Nodejs::
+
+   npm install syrpc
+
+PHP::
+
+   composer require adfinis-sygroup/syrpc-php
